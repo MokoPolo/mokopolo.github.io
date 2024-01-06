@@ -4,10 +4,6 @@ import Qrcode from "./components/qr-code";
 // import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <Qrcode />
-    </div>
-  );
+  return <div className="App h-screen">{<Qrcode />}</div>;
 }
 export default App;
