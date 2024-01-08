@@ -17,7 +17,7 @@ const qrCode = () => {
         </div>
         <div>
           Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
+          to the next level.
         </div>
       </div>
     </div>
