@@ -1,24 +1,28 @@
 const qrCode = () => {
   return (
-    <div className="flex justify-center items-center flex-col h-full w-full">
+    <div
+      className="bg-white rounded-lg shadow-md p-4"
+      style={{ width: "15.6rem" }}
+    >
+      <div>
+        <img
+          className="rounded-lg"
+          src="./images/image-qr-code.png"
+          alt="QR Code"
+        />
+      </div>
       <div
-        className="bg-white rounded-lg shadow-md p-4"
-        style={{ width: "400px", height: "600px" }}
+        className="font-bold text-center my-4 leading-6"
+        style={{ fontSize: "22px" }}
       >
-        <div>
-          <img
-            className="rounded-lg"
-            src="./images/image-qr-code.png"
-            alt="QR Code"
-          />
-        </div>
-        <div className="font-bold text-lg mt-4">
-          Improve your front-end skills by building projects
-        </div>
-        <div>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level.
-        </div>
+        Improve your front-end skills by building projects
+      </div>
+      <div
+        className="text-center leading-5"
+        style={{ color: "hsl(220, 15%, 55%)", fontSize: 15 }}
+      >
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level.
       </div>
     </div>
   );

@@ -1,9 +1,13 @@
 import "./App.css";
 import Qrcode from "./components/qr-code";
-// import Test from "./components/test";
-// import React from "react";
 
 function App() {
-  return <div className="App h-screen">{<Qrcode />}</div>;
+  return (
+    <div className="App h-screen">
+      <div className="flex justify-center items-center h-full">
+        {<Qrcode />}
+      </div>
+    </div>
+  );
 }
 export default App;
